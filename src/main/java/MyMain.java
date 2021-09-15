@@ -25,7 +25,6 @@ public class MyMain {
     // Ex. decimalToBinary(7) => "111"
     //     decimalToBinary(152) => "10011000"
     public static String decimalToBinary(int decimal) {
-        int count = 0; // will count the power of the digit as code iterates thought the number
         String str = "";
         while (decimal>0){
             int remain = decimal%2;

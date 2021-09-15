@@ -30,7 +30,7 @@ public class MyMain {
         while (decimal>0){
             int remain = decimal%2;
             decimal=decimal/2;
-            str = "" + remain;
+            str = str + remain;
         }
         return str;
     }

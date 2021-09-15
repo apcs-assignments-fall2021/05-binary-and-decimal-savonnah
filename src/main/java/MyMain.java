@@ -26,6 +26,9 @@ public class MyMain {
     //     decimalToBinary(152) => "10011000"
     public static String decimalToBinary(int decimal) {
         String str = "";
+        if (decimal == 0){
+            return "0";
+        }
         while (decimal>0){
             int remain = decimal%2;
             decimal=decimal/2;
